@@ -1,0 +1,20 @@
+name: ModernCommandSyntax
+main: dev.leonardkleber.moderncommandsyntax.ModernCommandSyntax
+version: 1.0.0
+author: leonardKleber
+
+softdepend:
+  - CCC
+
+commands:
+  time:
+    description: Gets, sets, or adds to the world time.
+    usage: /time [day|night|noon|midnight|set|add|<time>] [time]
+
+  weather:
+    description: Sets the world weather and duration.
+    usage: /weather (clear|rain|thunder) [<duration>]
+
+  gamemode:
+    description: Changes the game mode of a player.
+    usage: /gamemode <gamemode> [<target>]
